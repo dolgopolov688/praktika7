@@ -8,7 +8,7 @@ background-color: #000;
 font-family: "Montserrat", sans-serif;
 }
 a:hover {
-color: pink;
+color: #4B0082;
 }
 .webgl {
 	position: fixed;
@@ -81,8 +81,8 @@ nav a:hover {
 
 nav a.active {
 	opacity: 1;
-	color: #ff0055;
-	text-shadow: 0 0 15px rgba(255, 0, 85, 0.4);
+	color: #3F00FF;
+	text-shadow: 0 0 15px rgba(63, 0, 255, 0.4);
 }
 
 nav a.active::after {
@@ -93,9 +93,9 @@ nav a.active::after {
 	transform: translateX(-50%);
 	width: 4px;
 	height: 4px;
-	background: #ff0055;
+	background: #3F00FF;
 	border-radius: 50%;
-	box-shadow: 0 0 8px rgba(255, 0, 85, 0.8);
+	box-shadow: 0 0 8px rgba(63, 0, 255, 0.8);
 }
 .text-section {
 	position: relative;
@@ -124,7 +124,7 @@ nav a.active::after {
 	display: block;
 	width: 40px;
 	height: 2px;
-	background: #ff0055;
+	background: #3F00FF;
 }
 
 h1.text-title {
